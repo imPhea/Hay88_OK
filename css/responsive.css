@@ -1,0 +1,234 @@
+@media screen and (min-width: 1080px) {
+    .mainbody {
+        width: 80%;
+        margin: auto;
+    }
+
+    .box_footer {
+        width: 25%;
+        padding: 15px;
+    }
+
+    .main_footer .ft_1 {
+        min-width: 50%;
+    }
+
+    .main_footer {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 1080px) {
+    .mainbody {
+        width: 100%;
+    }
+
+    .box_footer {
+        width: 50%;
+        padding: 0 10px;
+        float: left
+    }
+
+    .main_footer .ft_1 {
+        width: 100%;
+    }
+
+    .main_footer {
+        flex-direction: column;
+    }
+
+    #searchBar,
+    #schIcon {
+        display: none;
+    }
+}
+
+@media (min-width: 850px) {
+    .main_box {
+        flex-flow: column;
+    }
+
+    .child_box {
+        flex-direction: row;
+    }
+
+    .mainbody .navBar {
+        justify-content: center;
+    }
+
+    .fa-xmark {
+        display: none;
+    }
+
+    .pic_ {
+        width: 80%;
+    }
+}
+
+@media (max-width: 850px) {
+    .mainbody .navBar {
+        justify-content: flex-start;
+    }
+
+    .fa-xmark {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+
+    .swiper-navBtn {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .txt1,
+    .card_box h2 {
+        font-size: 1.3em;
+    }
+
+    .card-wrapper {
+        max-width: 150px;
+    }
+
+    .txt2,
+    .card_box h3 {
+        font-size: 1.2em;
+    }
+
+    .card_box h1 {
+        font-size: 1.5em;
+    }
+
+    .main_box .child_box {
+        height: 90px;
+    }
+
+    .mainContent {
+        padding: 0 3%;
+    }
+
+    .navBar li {
+        padding: 5px 5px;
+    }
+
+    .child_box h1 {
+        font-size: .8em;
+        padding: 0;
+        line-height: 110%;
+    }
+
+    .child_box h3 {
+        font-size: .6em;
+    }
+
+    .part1 span {
+        font-size: 1em;
+        width: 30px;
+        height: 30px;
+    }
+
+    footer {
+        font-size: .7em;
+        margin-top: -20px;
+    }
+
+    .part4 {
+        gap: 0;
+    }
+
+    .swiper-wrapper {
+        min-height: 250px;
+    }
+
+    .main_card {
+        padding: 0;
+    }
+
+    .ft_1 h3 {
+        font-size: 12px;
+    }
+
+    .ft_1 h2 {
+        font-size: 1em;
+    }
+
+    .box_footer {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .child_box h1 {
+        font-size: 1.3em;
+    }
+
+    .child_box h3 {
+        font-size: .8em;
+    }
+
+    .part1 span {
+        font-size: 1.2em;
+        width: 20px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .child_box h1 {
+        font-size: 1.5em;
+    }
+
+    .child_box h3 {
+        font-size: 1em;
+    }
+
+    .part1 span {
+        font-size: 1.5em;
+        width: 20px;
+        height: 40px;
+    }
+
+    .child_box .part4 a {
+        height: 55px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .child_box .part4 a {
+        height: 70px;
+    }
+
+    .part1 span {
+        font-size: 1.5em;
+        width: 20px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .child_box .part4 a {
+        height: 70px;
+    }
+
+    .part1 span {
+        font-size: 2em;
+        width: 30px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+
+    .swiper-navBtn {
+        display: none;
+    }
+}
